@@ -1,0 +1,24 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/User/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "User",
+            "name": "User"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "https://se.sencha.com/AssetRegister/Login.aspx?"
+}
