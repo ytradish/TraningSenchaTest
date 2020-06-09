@@ -43,6 +43,6 @@ describe("Dashboard", function () {
 
     it("should show the total value of assets", function () {
         Dashboard.assetValuePanel()
-            .textEmpty();
+            .text('$205,843 total value');
     });
 });
