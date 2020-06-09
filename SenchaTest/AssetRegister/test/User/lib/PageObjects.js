@@ -1,4 +1,22 @@
 PageObjects = {
+    
+    login: function() {
+        ST.navigate('https://se.sencha.com/AssetRegister/Login.aspx?apiKey=1a020lgwpo2rsovzs2b63v6ptwo4cehb');
+        
+        PageObjects.Login.emailField()
+            .focus()
+            .type('shogo.tokita@a-saas.com');
+            
+        PageObjects.Login.passwordField()
+            .focus()
+            .type('Tokita69');
+            
+        PageObjects.Login.submitButton()
+            .click();
+            
+        PageObjects.Dashboard.dashboard();
+    },
+    
     Login: {
         emailField: function() {
             return ST.element('@email');
