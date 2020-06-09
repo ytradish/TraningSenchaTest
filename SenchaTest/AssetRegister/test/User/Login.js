@@ -5,6 +5,7 @@ describe("Login", function () {
         ST.navigate('https://se.sencha.com/AssetRegister/Login.aspx');
         Login.resetButton()
             .click();
+        
     });
 
     it("should fail when an unregistered email address is used", function () {

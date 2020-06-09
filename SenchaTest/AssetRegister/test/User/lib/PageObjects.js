@@ -21,6 +21,26 @@ PageObjects = {
         loginLink: function() {
             return ST.element('@login');  
         }
-        
+    },
+    
+    Dashboard: {
+        dashboard: function() {
+            return ST.component('dashboard');
+        },
+        menuDashboard: function() {
+            return ST.dataView('#menu').item('dashboard');
+        },
+        assetCountPanel: function() {
+            return ST.component('assetcount');
+        },
+        assetValuePanel: function() {
+            return ST.component('categoryspend');
+        },
+        assetCategorySpendChart: function() {
+            return ST.component('categoryspend');
+        },
+        assetMonthlySpendChart: function() {
+            return ST.component('monthlyspend');
+        }
     }
 };
