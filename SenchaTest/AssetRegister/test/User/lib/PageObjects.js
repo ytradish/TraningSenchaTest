@@ -80,6 +80,45 @@ PageObjects = {
         },
         addButton: function() {
             return ST.button('assetgrid button[text=Add New]');
+        },
+        saveButton: function() {
+            return ST.button('assetform button[reference=save]');
+        },
+        deleteButton: function() {
+            return ST.button('assetform button[reference=delete]');
+        },
+        messageBox: function() {
+            return ST.component('messagebox');
+        },
+        messageBoxOkButton: function() {
+            return ST.button('messagebox button[text=OK]');
+        },
+        messageBoxYesButton: function() {
+            return ST.button('messagebox button[text=Yes]');
+        },
+        messageBoxNoButton: function() {
+            return ST.button('messagebox button[text=No]');
+        },
+        messageToast: function() {
+            return ST.component('sheet[baseCls=x-toast]');
+        },
+        nameField: function() {
+            return ST.field('assetform textfield[label=Name]');
+        },
+        descriptionField: function() {
+            return ST.field('assetform textareafield[label=Description]');
+        },
+        typeField: function() {
+            return ST.select('assetform selectfield[label=Type]');
+        },
+        dateField: function() {
+            return ST.field('assetform datepickerfield[label=Date]');
+        },
+        quantityField: function() {
+            return ST.field('assetform numberfield[label=Quantity]');
+        },
+        costField: function() {
+            return ST.field('assetform numberfield[label=Per Unit Cost]');
         }
     }
 };
