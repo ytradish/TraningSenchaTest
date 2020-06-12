@@ -1,0 +1,204 @@
+{
+    "id": 17,
+    "children": [
+        {
+            "id": 18,
+            "name": "should contain an asset count component",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "should contain an asset value component",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "should contain an categories expenditures component",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "should contain an monthly expenditures chart component",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "should show the number of assets",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "should show the total value of assets",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "screenshot should match baseline",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Error: A request to switch to a different window could not be satisfied because the window could not be found.\n    at screenshot() - saveScreenshot.js:52:17\n    at saveScreenshot() - WebDriver.js:1875:30",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Dashboard",
+    "type": "suite",
+    "chrome83osx": 7
+}

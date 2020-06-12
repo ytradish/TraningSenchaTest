@@ -1,0 +1,15 @@
+{
+    "id": 15,
+    "children": [
+        {
+            "name": "Dashboard",
+            "type": "suite",
+            "dir": "Dashboard",
+            "id": 17,
+            "chrome83osx": 1
+        }
+    ],
+    "name": "Dashboard.js",
+    "type": "file",
+    "chrome83osx": 1
+}

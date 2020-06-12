@@ -1,0 +1,28 @@
+{
+    "children": [
+        {
+            "name": "User",
+            "type": "dir",
+            "dir": "User",
+            "id": 2,
+            "chrome83osx": 23
+        }
+    ],
+    "scenarios": [
+        {
+            "path": "User"
+        }
+    ],
+    "browsers": [
+        {
+            "id": "chrome83osx",
+            "canonicalName": "chrome",
+            "version": 83,
+            "canonicalPlatform": "osx",
+            "displayName": "Chrome",
+            "displayPlatform": "MAC"
+        }
+    ],
+    "chrome83osx": 23,
+    "maxId": 34
+}

@@ -31,4 +31,9 @@ describe("Dashboard", function () {
         Dashboard.assetValuePanel()
             .text('$205,843 total value');
     });
+    
+    it('screenshot should match baseline', function() {
+        ST.screenshot('Dashboard');
+    });
+
 });

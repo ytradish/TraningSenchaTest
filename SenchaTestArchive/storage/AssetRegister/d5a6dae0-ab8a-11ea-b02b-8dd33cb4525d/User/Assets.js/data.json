@@ -1,0 +1,15 @@
+{
+    "id": 3,
+    "children": [
+        {
+            "name": "Assets",
+            "type": "suite",
+            "dir": "Assets",
+            "id": 5,
+            "chrome83osx": 0
+        }
+    ],
+    "name": "Assets.js",
+    "type": "file",
+    "chrome83osx": 0
+}

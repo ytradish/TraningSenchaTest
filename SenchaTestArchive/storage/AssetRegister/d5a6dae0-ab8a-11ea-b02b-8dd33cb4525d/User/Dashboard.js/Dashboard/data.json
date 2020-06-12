@@ -1,0 +1,101 @@
+{
+    "id": 17,
+    "children": [
+        {
+            "id": 18,
+            "name": "should contain an asset count component",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "should contain an asset value component",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "should contain an categories expenditures component",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "should contain an monthly expenditures chart component",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "should show the number of assets",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "should show the total value of assets",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "screenshot should match baseline",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Expected screenshot Dashboard to match baseline.",
+                            "screenshot": "User/Dashboard.js/Dashboard/chrome83osx-Dashboard.png",
+                            "baseline": "User/Dashboard.js/Dashboard/chrome83osx-Dashboard-baseline.png",
+                            "diff": "User/Dashboard.js/Dashboard/chrome83osx-Dashboard-diff.png",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Dashboard",
+    "type": "suite",
+    "chrome83osx": 1
+}

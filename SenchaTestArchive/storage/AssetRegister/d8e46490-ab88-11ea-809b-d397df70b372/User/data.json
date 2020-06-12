@@ -1,0 +1,29 @@
+{
+    "id": 2,
+    "children": [
+        {
+            "name": "Assets.js",
+            "type": "file",
+            "dir": "Assets.js",
+            "id": 3,
+            "chrome83osx": 2
+        },
+        {
+            "name": "Dashboard.js",
+            "type": "file",
+            "dir": "Dashboard.js",
+            "id": 15,
+            "chrome83osx": 7
+        },
+        {
+            "name": "Login.js",
+            "type": "file",
+            "dir": "Login.js",
+            "id": 25,
+            "chrome83osx": 0
+        }
+    ],
+    "name": "User",
+    "type": "dir",
+    "chrome83osx": 9
+}

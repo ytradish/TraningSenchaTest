@@ -1,0 +1,117 @@
+{
+    "id": 27,
+    "children": [
+        {
+            "id": 28,
+            "name": "should fail when an unregistered email address is used",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "should fail when email address and password are blank",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "should fail when password is invalid",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "should login",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "Expected 'https://se.sencha.com/AssetRegister/Default.aspx' to contain 'Default.aspx'.",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "should link registration page",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "Expected 'https://se.sencha.com/AssetRegister/Register.aspx' to contain 'Register.aspx'.",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "should navigate to the login page from the registration page",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "Expected 'https://se.sencha.com/AssetRegister/Login.aspx' to contain 'Login.aspx'.",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "screenshot should match baseline",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "Expected screenshot Login to match baseline.",
+                            "screenshot": "User/Login.js/Login/chrome83osx-Login.png",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Login",
+    "type": "suite",
+    "chrome83osx": 0
+}

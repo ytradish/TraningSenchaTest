@@ -1,0 +1,150 @@
+{
+    "id": 5,
+    "children": [
+        {
+            "id": 6,
+            "name": "should show asset data",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for visible to be true for ST.future.Grid with target assetgrid",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "should show the details form when a row is clicked",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for visible to be true for ST.future.Grid with target assetgrid",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "should return to the grid from a details form when the \"back\" button is clicked",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "should visible Asset Details form when the \"Add New\" button is clicked",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "should show an error message when an asset details form that is missing a value is saved",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "should initialize new asset fields to all empty values, except date, which is the current date",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "Expected '06/11/2020' to equal '06/11/2020'.",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "should allow every field on the asset details form to be edited",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "should let the user know when data has been saved,",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": []
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "should show a delete confirmation",
+            "type": "test",
+            "chrome83osx": true,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": true,
+                            "message": "expected timeout waiting for event to be ready for ST.future.Row",
+                            "status": "passed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Assets",
+    "type": "suite",
+    "chrome83osx": 2
+}

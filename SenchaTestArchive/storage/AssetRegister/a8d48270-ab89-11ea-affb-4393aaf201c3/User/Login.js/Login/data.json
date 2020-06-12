@@ -1,0 +1,204 @@
+{
+    "id": 27,
+    "children": [
+        {
+            "id": 28,
+            "name": "should fail when an unregistered email address is used",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "should fail when email address and password are blank",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "should fail when password is invalid",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "should login",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "should link registration page",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "should navigate to the login page from the registration page",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "screenshot should match baseline",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"Timeout waiting for test step to complete (5 sec).\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Error: A request to switch to a different window could not be satisfied because the window could not be found.\n    at log(\"browser\") - WebDriver.js:410:47",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Login",
+    "type": "suite",
+    "chrome83osx": 7
+}

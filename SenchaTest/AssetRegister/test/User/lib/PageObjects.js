@@ -1,11 +1,17 @@
 PageObjects = {
     
     login: function() {
-        ST.navigate('https://se.sencha.com/AssetRegister/Login.aspx?apiKey=1a020lgwpo2rsovzs2b63v6ptwo4cehb');
+        var apiKey = '1a020lgwpo2rsovzs2b63v6ptwo4cehb';
+        if (ST.browser.is.IE) {
+            apiKey = '602qk6q9ff640bhzrtkwbm4mivt77po4';
+        }
+        
+        ST.navigate('https://se.sencha.com/AssetRegister/Login.aspx?apiKey=' + apiKey);
         
         PageObjects.Login.emailField()
             .focus()
             .type('shogo.tokita@a-saas.com');
+            // .type('yellowtail.radish@gmail.com');
             
         PageObjects.Login.passwordField()
             .focus()

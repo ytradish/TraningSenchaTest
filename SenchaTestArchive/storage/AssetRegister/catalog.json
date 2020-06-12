@@ -1,0 +1,28 @@
+{
+    "archives": {
+        "": {
+            "path": "/catalog.json"
+        }
+    },
+    "count": 3,
+    "runs": {
+        "1": {
+            "id": 1,
+            "path": "d8e46490-ab88-11ea-809b-d397df70b372.zip",
+            "uploaded": 1591841690895,
+            "lastUpdated": 1591841690895
+        },
+        "3": {
+            "id": 2,
+            "path": "a8d48270-ab89-11ea-affb-4393aaf201c3.zip",
+            "uploaded": 1591841936283,
+            "lastUpdated": 1591841936283
+        },
+        "5": {
+            "id": 3,
+            "path": "d5a6dae0-ab8a-11ea-b02b-8dd33cb4525d.zip",
+            "uploaded": 1591842461982,
+            "lastUpdated": 1591842461982
+        }
+    }
+}

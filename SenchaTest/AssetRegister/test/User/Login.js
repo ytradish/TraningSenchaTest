@@ -5,7 +5,6 @@ describe("Login", function () {
         ST.navigate('https://se.sencha.com/AssetRegister/Login.aspx');
         Login.resetButton()
             .click();
-        
     });
 
     it("should fail when an unregistered email address is used", function () {
@@ -80,5 +79,9 @@ describe("Login", function () {
             .getUrl(function(url) {
                 expect(url).toContain('Login.aspx');
             });
+    });
+
+    it("screenshot should match baseline", function () {
+        ST.screenshot('Login');
     });
 });

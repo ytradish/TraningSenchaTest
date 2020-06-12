@@ -1,0 +1,300 @@
+{
+    "id": 5,
+    "children": [
+        {
+            "id": 6,
+            "name": "should show asset data",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (#menu) to be available for ST.future.DataView",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (assetgrid) to be available for ST.future.Grid",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "should show the details form when a row is clicked",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (#menu) to be available for ST.future.DataView",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "should return to the grid from a details form when the \"back\" button is clicked",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "should visible Asset Details form when the \"Add New\" button is clicked",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "should show an error message when an asset details form that is missing a value is saved",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "should initialize new asset fields to all empty values, except date, which is the current date",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "should allow every field on the asset details form to be edited",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "should let the user know when data has been saved,",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "should show a delete confirmation",
+            "type": "test",
+            "chrome83osx": false,
+            "details": [
+                {
+                    "browser": "chrome83osx",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for target (@email) to be available for ST.future.Element",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Failed with error \"no such window: window was already closed\"",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Global leaks check threw an error: no such window: window was already closed",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Assets",
+    "type": "suite",
+    "chrome83osx": 9
+}

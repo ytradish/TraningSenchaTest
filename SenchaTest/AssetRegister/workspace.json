@@ -8,6 +8,32 @@
         "extract": "${workspace.dir}/packages/remote"
     },
     "tests": {
-        "path": "test/project.json"
+        "path": "test/project.json",
+        "browser": {
+            "farms": [
+                {
+                    "name": "Sauce Labs",
+                    "type": "saucelabs",
+                    "port": 4444,
+                    "host": "ondemand.saucelabs.com",
+                    "username": "shogo.tokita",
+                    "accessKey": "d0355314-56cc-425a-bf4b-3f48ed4257bb",
+                    "sessionLimit": 2,
+                    "pools": [
+                        {
+                            "name": "Modern Browsers",
+                            "path": "Modern Browsers.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        "archiveServers": [
+            {
+                "server": "http://localhost:1903",
+                "archiveRoot": "/AssetRegister",
+                "label": "AssetRegisterUserTests"
+            }
+        ]
     }
 }
