@@ -1,7 +1,7 @@
 describe("Assets", function () {
     var Assets = PageObjects.Assets;
     var Dashboard = PageObjects.Dashboard;
-    //test
+    
     var newAsset = {
         name: 'Epson PowerLite Home Cinema 1080p Projector',
         description: '2D and 3D 1080p projector with 3-chip optical engine',
